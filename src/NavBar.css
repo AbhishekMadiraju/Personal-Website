@@ -1,0 +1,106 @@
+/*.navigate {
+    height: 9.5vh;
+    background-color: #684EDE;
+    transition: top;
+}
+
+header {
+    display: inline;
+}
+
+header img {
+    float: left;
+    margin-left: 10px;
+    color: darkgreen;
+    width: 100px;
+    margin: -15px 10px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 920px) {
+    nav {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: #CDFF42;
+}
+
+a:last {
+    margin-right: 20px;
+}*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #684EDE;
+    width: 100%;
+    position: fixed;
+}
+
+header img {
+    float: left;
+    margin-left: 10px;
+    color: darkgreen;
+    width: 100px;
+    margin: -15px 10px;
+}
+
+nav {
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: #CDFF42;
+}
+
+a:last {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        justify-content: space-around;
+    }
+}
+
