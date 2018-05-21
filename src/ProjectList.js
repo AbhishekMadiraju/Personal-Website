@@ -14,7 +14,7 @@ class ProjectList extends Component {
     },
     {
         name:"YELPCAMP",
-        description:"A full stack webapp for campground reviews. Users can create an account and add their own campgrounds and rate others.",
+        description:"A full stack web application for campground reviews. Users can create an account and add their own campgrounds and rate others.",
         stack:["devicon-html5-plain-wordmark colored","devicon-css3-plain-wordmark colored",
                "devicon-javascript-plain colored","devicon-nodejs-plain-wordmark colored",
                "devicon-express-original-wordmark","devicon-mongodb-plain-wordmark colored"],
@@ -22,7 +22,7 @@ class ProjectList extends Component {
     },
     {
         name:"BIG DATA ANALYSIS ON AWS",
-        description: "Hadoop MapReduce application to perform wordcount analyis on Wikipedia files related to all 50 states.",
+        description: "Hadoop MapReduce application to perform wordcount analysis on Wikipedia files related to all 50 states.",
         stack:["devicon-java-plain-wordmark colored","devicon-amazonwebservices-plain-wordmark colored"],
         link:"https://github.com/AbhishekMadiraju/Big-Data-Analysis"
     },
@@ -45,7 +45,7 @@ class ProjectList extends Component {
     },
     {
         name:"DICTIONARY ATTACK",
-        description:"Performed a dictionary attack on Linux style shadow file and checked if it contains any commonly used passwords. Implemented the MD5 hashing algorithm to using Java crypto librarires to perform this attack and understand one way hashing functions.",
+        description:"Performed a dictionary attack on Linux style shadow file and checked if it contains any commonly used passwords. Implemented the MD5 hashing algorithm using Java crypto librarires to perform this attack and understand one way hashing functions.",
         stack:["devicon-java-plain-wordmark colored"]
     },
     {
@@ -55,7 +55,7 @@ class ProjectList extends Component {
     },
     {
         name:"UDP RADIO STREAMER",
-        description: "A UDP client developed using C which streams in a Linux Environment, which fragments a given audio file any format and sends it to a remote media player like VLC.",
+        description: "A UDP client developed using C, which fragments a given audio file in any format and sends it to a remote media player like VLC.",
         stack:["devicon-c-plain-wordmark colored"],
         link:"https://github.com/AbhishekMadiraju/Packet-Radio-Streamer"
     },
