@@ -4,7 +4,6 @@
     justify-content: flex-start;
     flex-direction: row;
     text-align: justify;
-    height: 100vh;
 }
 
 #profile img {
@@ -47,11 +46,15 @@
 
 
 #icons .fa-github-square:hover {
-    color: #bd2c00;
+    color:  #4875B4;
 }
 
 .fas:hover {
-    color:red;
+    color: #4875B4;
+}
+
+.far:hover {
+    color:  #4875B4;
 }
 
 #writeup {
@@ -64,7 +67,19 @@
 }
 
 #writeup h2 {
+    font-weight: 300;
+    font-size: 21px;
     margin: 0px;
+}
+
+#writeup a {
+    margin-left: 0;
+}
+
+#writeup a p {
+    margin-left: 10px;
+    display: inline-block;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width: 600px) {

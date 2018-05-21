@@ -8,10 +8,9 @@
 .project-list {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    width: 60%;
+    width: 90%;
     margin-bottom: 50px;
 }
 
@@ -19,8 +18,5 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-#heading a {
-    font-size: px;
+    margin-top: 50px;
 }

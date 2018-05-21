@@ -19,7 +19,7 @@ class AboutMe extends Component {
                         <h2>I am a Computer Science Masters Graduate with experience working across the stack right from Frontend to System Programming. 
                         My passion for technology has motivated me to work on areas such as Web Development, Frontend, Backend, Networking, Data Mining, Java programming and many more. 
                         I also have worked on modern frameworks such as React and Node JS. I currently reside in San Mateo, CA. Feel free to contact me if you are intersted in my work or want to chat sometime:</h2>
-                        <a href="mailto:abhishekmadiraju@gmail.com" className="fas fa-envelope">abhishekmadiraju@gmail.com</a>
+                        <a href="mailto:abhishekmadiraju@gmail.com" className="fas fa-envelope"><p>abhishekmadiraju@gmail.com</p></a>
                     </div>
                 </div>
         )

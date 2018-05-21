@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Info from './Info';
-import Test from './Test';
 import AboutMe from './AboutMe';
 import ProjectList from './ProjectList';
 import './App.css';
