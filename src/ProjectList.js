@@ -9,34 +9,39 @@ class ProjectList extends Component {
         description: "A personal website built using React JS describing my experience and project portfolio.",
         stack: ["devicon-html5-plain-wordmark colored","devicon-css3-plain-wordmark colored",
                 "devicon-javascript-plain colored","devicon-react-original-wordmark colored",
-                "devicon-nodejs-plain-wordmark colored"]
+                "devicon-nodejs-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/Personal-Website"
     },
     {
         name:"YELPCAMP",
         description:"A full stack webapp for campground reviews. Users can create an account and add their own campgrounds and rate others.",
         stack:["devicon-html5-plain-wordmark colored","devicon-css3-plain-wordmark colored",
                "devicon-javascript-plain colored","devicon-nodejs-plain-wordmark colored",
-               "devicon-express-original-wordmark","devicon-mongodb-plain-wordmark colored"]
+               "devicon-express-original-wordmark","devicon-mongodb-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/Yelpcamp"
     },
     {
         name:"BIG DATA ANALYSIS ON AWS",
         description: "Hadoop MapReduce application to perform wordcount analyis on Wikipedia files related to all 50 states.",
-        stack:["devicon-java-plain-wordmark colored","devicon-amazonwebservices-plain-wordmark colored"]
+        stack:["devicon-java-plain-wordmark colored","devicon-amazonwebservices-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/Big-Data-Analysis"
     },
     {
         name: "ONLINE MEMBERSHIP SYSTEM",
         description: "A Java desktop application to manage online membership. Users can modify their own information and search for other users, wheres an admin can add or remove other users and modify their information as well.",
-        stack:["devicon-java-plain-wordmark colored","devicon-mysql-plain-wordmark colored"]
+        stack:["devicon-java-plain-wordmark colored","devicon-mysql-plain-wordmark colored"],
     },
     {
         name:"SUPPORT VERCTOR MACHINES",
         description: "Wrote a python program using scikit-learn to calaculate accuracy of SVM on various datasets using linear and radial kernel. Performed k-fold cross validation to improve accuracy.",
-        stack:["devicon-python-plain-wordmark colored"]
+        stack:["devicon-python-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/Support-Vector-Machines"
     },
     {
         name:"STOCK OPTIONS ADVISOR",
         description:"Implemented the Apriori Algortihm in Java to generate association rules for stock options data obtained from NASDAQ's website. Used lex/yacc to extract data from NASDAQ html files and store it in CSV.",
-        stack:["devicon-java-plain-wordmark colored","devicon-c-plain-wordmark colored"]
+        stack:["devicon-java-plain-wordmark colored","devicon-c-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/HTML-Parser"
     },
     {
         name:"DICTIONARY ATTACK",
@@ -51,12 +56,14 @@ class ProjectList extends Component {
     {
         name:"UDP RADIO STREAMER",
         description: "A UDP client developed using C which streams in a Linux Environment, which fragments a given audio file any format and sends it to a remote media player like VLC.",
-        stack:["devicon-c-plain-wordmark colored"]
+        stack:["devicon-c-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/Packet-Radio-Streamer"
     },
     {
         name: "PROXY SERVER",
         description: "Developed a C based proxy server which handles HTTP GET and FTP requests.",
-        stack: ["devicon-c-plain-wordmark colored"]
+        stack: ["devicon-c-plain-wordmark colored"],
+        link:"https://github.com/AbhishekMadiraju/Proxy-Server"
     }]
     };
     
