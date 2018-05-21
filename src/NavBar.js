@@ -1,21 +1,20 @@
 import React, {Component} from 'react';
 import './NavBar.css';
-import image from './logo.png';
+import image from './abhi.png';
 
 class NavBar extends Component {
     render() {
         return (
-            <div class="navigate">
+            <div className="navigate">
                 <header>
-                    <div class="logo">
+                    <div className="logo">
                         <a href="#info">
                             <img src={image} href="#info"/>
                         </a>
                     </div>
                     <nav>
-                        <a href="#">About Me</a>
-                        <a href="#">My Work</a>
-                        <a href="#">Contact</a>
+                        <a href="#profile">About Me</a>
+                        <a href="#projects">My Work</a>
                     </nav>
                 </header>
             </div>

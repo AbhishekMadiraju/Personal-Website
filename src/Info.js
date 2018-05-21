@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Info.css';
-import image from './IMG_8983.JPG';
 
 class Info extends Component {
     render () {

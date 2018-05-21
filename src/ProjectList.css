@@ -1,0 +1,25 @@
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#heading a {
+    font-size: px;
+}

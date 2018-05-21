@@ -57,17 +57,21 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #684EDE;
-    width: 100%;
+    background-color: white;
+    object-fit: contain;
     position: fixed;
+    width: 100%;
+    /*width: 100%;
+    position: fixed;*/
 }
 
 header img {
     float: left;
     margin-left: 10px;
-    color: darkgreen;
-    width: 100px;
-    margin: -15px 10px;
+    width: auto;
+    height: 50px;
+    /*width: 100px;
+    margin: -15px 10px;*/
 }
 
 nav {
@@ -76,7 +80,7 @@ nav {
 
 a {
     text-decoration: none;
-    color:white;
+    color:black;
     cursor: pointer;
     margin: 20px;
     margin-top: 10px;

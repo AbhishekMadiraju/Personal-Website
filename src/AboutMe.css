@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    text-align: left;
+    text-align: justify;
+    height: 100vh;
 }
 
 #profile img {
@@ -20,6 +21,37 @@
 #pic {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.fab {
+    font-size: 30px;
+    color: black;
+}
+
+.far {
+    font-size: 30px;
+}
+
+.fas {
+    color: black;
+}
+.fa-linkedin:hover {
+    color: #4875B4;
+}
+
+
+#icons .fa-github-square:hover {
+    color: #bd2c00;
+}
+
+.fas:hover {
+    color:red;
 }
 
 #writeup {
@@ -27,8 +59,17 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 40px;
 }
 
 #writeup h2 {
     margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    #profile {
+        flex-direction: column;
+        align-items: center;
+    }
 }
