@@ -1,6 +1,4 @@
 node('master') {
-
-
     currentBuild.result = "SUCCESS"
 
     try {
@@ -9,4 +7,5 @@ node('master') {
 
           checkout scm
        }
+    }
 }
