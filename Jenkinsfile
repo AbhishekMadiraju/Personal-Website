@@ -1,8 +1,20 @@
 pipeline {
+    agent any
+
     stages {
-        stage('Clone repository') {
+        stage('Build') {
             steps {
-                sh 'ls'
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
             }
         }
     }
